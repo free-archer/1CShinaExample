@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="010cb7ff-6a6a-49c0-8db1-5756eeebbf91">
+  <producedTypes>
+    <objectType typeId="5467aa0b-26af-4b06-8642-f5c7a35b4b21" valueTypeId="88d8424f-47f3-438a-9241-be9cd151288e"/>
+    <managerType typeId="0dc61340-5040-4fad-8c16-a526ea348adc" valueTypeId="751192c4-9975-407c-bdc2-f87de34a87c6"/>
+  </producedTypes>
+  <name>Обмен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <forms uuid="e4dbef2c-1cd2-4ad3-867a-8f1a4765ac8a">
+    <name>ОбменМежду1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен между 1С</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="f9bd84db-5d25-4ad8-af62-2a9128b39f11">
+    <name>ОбменМежду1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен между 1С</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

@@ -40,4 +40,6 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <dataProcessors>DataProcessor.Обмен</dataProcessors>
+  <integrationServices>IntegrationService.ОтправкаВ1С</integrationServices>
 </mdclass:Configuration>
