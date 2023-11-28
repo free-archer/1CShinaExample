@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b726618c-2cfd-4b54-8be1-5f974af60e51">
-  <name>ShinaExample</name>
+  <name>ShinaExampleБаза1</name>
   <synonym>
     <key>ru</key>
-    <value>Пример работы с 1С:Шина</value>
+    <value>База1</value>
   </synonym>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="11cfbda6-917d-48de-837b-70a3575a7037"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="4f3fb7b6-d356-4ceb-9694-60393b25915b"/>

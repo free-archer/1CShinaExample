@@ -9,48 +9,12 @@
     <value>Отправка в 1С</value>
   </synonym>
   <externalIntegrationServiceAddress>http://localhost:9090/applications/obmen1c-dev</externalIntegrationServiceAddress>
-  <integrationServiceChannels uuid="fdca08eb-2562-43b3-a115-13efa7e2e1dd">
+  <integrationServiceChannels uuid="0df6d09d-27b9-44ae-bd08-ffbbd1e88ba9">
     <producedTypes>
-      <managerType typeId="cc042aa0-e67d-4966-abe5-37c03d81b7e5" valueTypeId="fc747740-ddaa-45ef-9ab2-29ca0e8b3848"/>
-    </producedTypes>
-    <name>База1</name>
-    <synonym>
-      <key>ru</key>
-      <value>База1</value>
-    </synonym>
-    <externalIntegrationServiceChannelName>База1</externalIntegrationServiceChannelName>
-    <transactioned>true</transactioned>
-  </integrationServiceChannels>
-  <integrationServiceChannels uuid="cd43920a-f1d4-440b-abe9-e60388afad93">
-    <producedTypes>
-      <managerType typeId="bf8e9d12-9e29-4eaa-a120-c438ca132270" valueTypeId="c2f51420-d394-4e11-beb8-a11a80f196ab"/>
-    </producedTypes>
-    <name>База2</name>
-    <synonym>
-      <key>ru</key>
-      <value>База2</value>
-    </synonym>
-    <externalIntegrationServiceChannelName>База2</externalIntegrationServiceChannelName>
-    <messageDirection>Receive</messageDirection>
-    <receiveMessageProcessing>База2ОбработкаПолученияСообщения</receiveMessageProcessing>
-    <transactioned>true</transactioned>
-  </integrationServiceChannels>
-  <integrationServiceChannels uuid="58cc30b6-fead-4cfb-ac29-17adccc9ad88">
-    <producedTypes>
-      <managerType typeId="7f71c12a-4010-47c6-a915-88a33368eaff" valueTypeId="559af366-772d-4ef5-81d0-c09ba72af647"/>
-    </producedTypes>
-    <name>Основной_Обмен1С_База2Приемка</name>
-    <externalIntegrationServiceChannelName>Основной_Обмен1С.База2Приемка</externalIntegrationServiceChannelName>
-    <messageDirection>Receive</messageDirection>
-    <receiveMessageProcessing>Основной_Обмен1С_База2ПриемкаОбработкаПолученияСообщения</receiveMessageProcessing>
-    <transactioned>true</transactioned>
-  </integrationServiceChannels>
-  <integrationServiceChannels uuid="c6ad1ef2-6619-49c4-a091-4164deeedb13">
-    <producedTypes>
-      <managerType typeId="d298e69a-8cee-43b1-8493-ac6da842a65c" valueTypeId="de27497d-eb9b-4b3f-83e4-00ba640cbf5c"/>
+      <managerType typeId="9f9cd8cd-6b83-4f73-81a7-1a296478ba30" valueTypeId="1c136fc5-f2b6-4236-8f13-9598906d4cd6"/>
     </producedTypes>
     <name>Основной_Обмен1С_База1Отправка</name>
-    <externalIntegrationServiceChannelName>Основной_Обмен1С.База1Отправка</externalIntegrationServiceChannelName>
+    <externalIntegrationServiceChannelName>Основной::Обмен1С.База1Отправка</externalIntegrationServiceChannelName>
     <transactioned>true</transactioned>
   </integrationServiceChannels>
 </mdclass:IntegrationService>
